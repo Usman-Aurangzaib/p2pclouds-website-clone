@@ -1,0 +1,18 @@
+/* Reset default margin and padding */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure app takes at least full viewport height */
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Stick footer to bottom */
+  footer {
+    margin-top: auto;
+  }

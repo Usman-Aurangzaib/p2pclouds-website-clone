@@ -1,0 +1,24 @@
+@keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  .moving-lines {
+    background: #00665A url('/public/moving-lines.png') repeat; /* Ensure this path is correct */
+    animation: moveBackground 10s linear infinite;
+    background-size: cover;
+  }
+
+  .swiper-slide {
+    /* Add your hover styles here */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .swiper-slide:hover {
+    transform: scale(1.1); /* Example of hover effect */
+  }
+  
